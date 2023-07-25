@@ -1,0 +1,417 @@
+INFO - 2023-06-24 03:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:30:26 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:30:26 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:30:26 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:30:26 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:31:29 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:31:29 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:31:29 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:31:29 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:31:59 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:31:59 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:31:59 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:31:59 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:32:55 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:32:55 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:32:55 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:32:55 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:32:57 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:32:58 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:32:58 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:32:58 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:36:50 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:36:50 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:36:50 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:36:50 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:37:19 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:37:19 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:37:19 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:37:19 --> Undefined offset: 1
+in APPPATH\Controllers\Buku_Besar.php on line 23.
+ 1 APPPATH\Controllers\Buku_Besar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Buku_Besar.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku_Besar->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Besar))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:37:39 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:37:39 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:37:39 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:37:39 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:39:44 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:39:44 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:39:44 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:39:44 --> Undefined offset: 1
+in APPPATH\Controllers\Jurnal_Umum.php on line 24.
+ 1 APPPATH\Controllers\Jurnal_Umum.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Jurnal_Umum.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurnal_Umum->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal_Umum))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:39:47 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:39:47 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:39:47 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:39:47 --> Undefined offset: 1
+in APPPATH\Controllers\Neraca_Saldo.php on line 23.
+ 1 APPPATH\Controllers\Neraca_Saldo.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Neraca_Saldo.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Neraca_Saldo->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neraca_Saldo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:40:57 --> Undefined offset: 1
+in APPPATH\Controllers\Laporan_Arus_Kas.php on line 26.
+ 1 APPPATH\Controllers\Laporan_Arus_Kas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Laporan_Arus_Kas.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Laporan_Arus_Kas->index('index', 'js', 'CodiePie.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan_Arus_Kas))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:40:57 --> Undefined offset: 1
+in APPPATH\Controllers\Laporan_Arus_Kas.php on line 26.
+ 1 APPPATH\Controllers\Laporan_Arus_Kas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Laporan_Arus_Kas.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Laporan_Arus_Kas->index('index', 'js', 'page', 'index.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan_Arus_Kas))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:40:57 --> Undefined offset: 1
+in APPPATH\Controllers\Laporan_Arus_Kas.php on line 26.
+ 1 APPPATH\Controllers\Laporan_Arus_Kas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Laporan_Arus_Kas.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Laporan_Arus_Kas->index('index', 'js', 'scripts.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan_Arus_Kas))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:40:57 --> Undefined offset: 1
+in APPPATH\Controllers\Laporan_Arus_Kas.php on line 26.
+ 1 APPPATH\Controllers\Laporan_Arus_Kas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\web\\htdocs\\aruskas\\app\\Controllers\\Laporan_Arus_Kas.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Laporan_Arus_Kas->index('index', 'js', 'custom.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan_Arus_Kas))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 03:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

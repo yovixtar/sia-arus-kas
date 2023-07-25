@@ -1,0 +1,9 @@
+CRITICAL - 2023-05-26 12:51:17 --> Invalid file: "akun/tambah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('akun/tambah.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('akun/tambah', [], true)
+ 3 APPPATH\Controllers\Akun.php(14): view('akun/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Akun->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akun))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
