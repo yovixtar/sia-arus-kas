@@ -68,10 +68,8 @@
 
         <center><strong>
                 <span>LAPORAN GAJI</span><br>
-                <span>TANGGAL <?= $gaji->tanggal ?></span><br>
+                <span>BULAN <?= strtoupper(bulan_indo(ltrim($bulane, '0'))) ?> TAHUN <?= $tahune ?></span><br>
             </strong></center><br><br>
-
-
 
         <table style="text-align:center;" class="table table-hover table-bordered" border="1" width="100%" cellspacing="0">
             <thead>
@@ -79,30 +77,36 @@
 
                     <th scope="col">No</th>
                     <th scope="col">Nama</th>
-                    <th scope="col">Alamat</th>
                     <th scope="col">Nominal</th>
                 </tr>
             </thead>
             <tbody>
                 <?php
-                $no = 1;
+                if (empty($gaji)) {
+                    
+                    echo '<tr><td colspan="3">Tidak ada data</td></tr>';
+                } else {
 
-                foreach ($karyawan as $k) {
+                    $no = 1;
 
+                    foreach ($gaji as $g) {
+                        $keterangan = $g->keterangan;
+                        $nama = str_ireplace("gaji", "", $keterangan);
+                        $nama = trim($nama);
                 ?>
-                    <tr>
-                        <td><?= $no++ ?></td>
-                        <td><?= $k->nama ?></td>
-                        <td><?= $k->alamat ?></td>
+                        <tr>
+                            <td><?= $no++ ?></td>
+                            <td><?= $nama ?></td>
+                            <td><?= rp($g->jumlah) ?></td>
+                        </tr>
 
-                        <td><?= rp($nominal) ?></td>
-
-                    </tr>
-
-                <?php } ?>
+                <?php
+                    }
+                }
+                ?>
             </tbody>
         </table>
-
+        <br />
         <?php
         $db = \Config\Database::connect();
 
@@ -141,8 +145,6 @@
             </tr>
         </table>
     </section>
-
-
 
 </body>
 

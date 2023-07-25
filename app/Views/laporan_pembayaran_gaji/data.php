@@ -2,10 +2,6 @@
 echo $this->include('layouts/header');
 ?>
 
-
-
-
-
 <!-- Start app main Content -->
 <div class="main-content">
     <section class="section">
@@ -23,11 +19,29 @@ echo $this->include('layouts/header');
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header">
-                            <h4>Basic DataTables</h4>
-                        </div>
                         <div class="card-body">
                             <div class="table-responsive">
+                                <label>Pilih Bulan :</label>
+                                <div class="row mb-5">
+                                    <div class="col-md-2 font-weight-bold">
+                                        <input type="month" value="<?= $bulan ?>" name="" class="form-control" id="bulan">
+                                    </div>
+                                    <div class="col-md-2 font-weight-bold">
+                                        <?php
+                                        $db = \Config\Database::connect();
+                                        ?>
+                                        <?php
+                                        $sesi = \Config\Services::session();
+                                        @$hak = $sesi->get('data')->hak_akses;
+                                        if (@$hak == 'Petugas TU') {
+                                        ?>
+                                            <a target="blank" id="cetak-link" href="<?= base_url('cetak_laporan_gaji/index/' . $bulan) ?>" class="btn btn-primary btn-xs float-left mb-4"><i class="fa fa-print"></i>Cetak</a>
+                                        <?php
+                                        }
+                                        ?>
+
+                                    </div>
+                                </div>
                                 <table class="table table-striped v_center" id="table-1">
                                     <thead>
                                         <tr>
@@ -35,26 +49,23 @@ echo $this->include('layouts/header');
                                                 #
                                             </th>
                                             <th>Tanggal</th>
-                                            <th>Jumlah Karyawan</th>
+                                            <th>Nama</th>
                                             <th>Nominal</th>
-                                            <th>Action</th>
-
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <?php
                                         $no = 1;
                                         foreach ($gaji as $g) {
-
+                                            $keterangan = $g->keterangan;
+                                            $nama = str_ireplace("gaji", "", $keterangan);
+                                            $nama = trim($nama);
                                         ?>
                                             <tr>
                                                 <td><?= $no++; ?></td>
                                                 <td><?= tgl_indo($g->tanggal) ?></td>
-                                                <td><?= count($karyawan) ?></td>
+                                                <td><?= $nama ?></td>
                                                 <td><?= rp($g->jumlah) ?></td>
-                                                <td>
-                                                    <a href="<?= base_url('cetak_laporan_gaji/' . $g->id_kas_keluar) ?>" class="btn btn-sm btn-success"><i class="fa fa-print"></i>Cetak</a>
-                                                </td>
                                             </tr>
 
                                         <?php
@@ -72,9 +83,12 @@ echo $this->include('layouts/header');
     </section>
 </div>
 
-
-
-
 <?php
 echo $this->include('layouts/footer');
 ?>
+
+<script type="text/javascript">
+    $('#bulan').on('change', function() {
+        window.location.href = "<?= base_url() ?>/laporan_pembayaran_gaji/index/" + $(this).val();
+    });
+</script>

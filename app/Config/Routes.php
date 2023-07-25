@@ -42,14 +42,14 @@ $routes->get('/jurnal_umum/(:any)', 'Jurnal_Umum::index/$1');
 $routes->get('/buku_besar/(:any)', 'Buku_Besar::index/$1');
 $routes->get('/neraca_saldo/(:any)', 'Neraca_Saldo::index/$1');
 $routes->get('/laporan_arus_kas/(:any)', 'Laporan_Arus_Kas::index/$1');
-$routes->get('/laporan_pembayaran_gaji/(:any)', 'Laporan_Pembayaran_Gaji::index/$1');
+$routes->get('/laporan_pembayaran_gaji/index/(:segment)', 'Laporan_Pembayaran_Gaji::index/$1/false');
 $routes->get('/laporan_neraca/(:any)', 'Laporan_neraca::index/$1');
 
 $routes->get('/cetak_jurnal_umum/(:any)', 'Jurnal_Umum::cetak/$1');
 $routes->get('/cetak_buku_besar/(:any)', 'Buku_Besar::cetak/$1');
 $routes->get('/cetak_neraca_saldo/(:any)', 'Neraca_Saldo::cetak/$1');
 $routes->get('/cetak_laporan_arus_kas/(:any)', 'Laporan_Arus_Kas::cetak/$1');
-$routes->get('/cetak_laporan_gaji/(:any)', 'Laporan_Pembayaran_Gaji::cetak/$1');
+$routes->get('/cetak_laporan_gaji/index/(:segment)', 'Laporan_Pembayaran_Gaji::index/$1/true');
 $routes->get('/cetak_laporan_neraca/(:any)', 'Laporan_neraca::cetak/$1');
 
 

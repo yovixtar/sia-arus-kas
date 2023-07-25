@@ -10,21 +10,25 @@ class Laporan_Pembayaran_Gaji extends BaseController
     {
         $this->db = \Config\Database::connect();
     }
-    public function index()
+    public function index($bulan = '', $cetak = '')
     {
-        $data['karyawan'] = $this->db->query("SELECT * FROM tb_guru_staf WHERE pegawai='Honorer'")->getResult();
-        $data['gaji'] = $this->db->query("SELECT * FROM tb_kas_keluar WHERE jenis='51110'")->getResult();
+        $cetak = filter_var($cetak, FILTER_VALIDATE_BOOLEAN);
+        
+        $request = \Config\Services::request();
+        $bulan = $request->uri->setSilent()->getSegment(3);
+        $data['bulan'] =
+            $bulan;
 
-        return view('laporan_pembayaran_gaji/data', $data);
+        $data['bulane'] = explode('-', $bulan)[1];
+        $data['tahune'] = explode('-', $bulan)[0];
+
+        $data['gaji'] = $this->db->query("SELECT * FROM tb_kas_keluar WHERE jenis='51110' AND MONTH(tanggal) = " . $data['bulane'] . " AND YEAR(tanggal) = " . $data['tahune'])->getResult();
+
+        if ($cetak) {
+            return view('laporan_pembayaran_gaji/cetak', $data);
+        } else {
+            return view('laporan_pembayaran_gaji/data', $data);
+        }
     }
 
-
-    public function cetak($id = null)
-    {
-        $data['karyawan'] = $this->db->query("SELECT * FROM tb_guru_staf WHERE pegawai='Honorer'")->getResult();
-        $data['gaji'] = $this->db->query("SELECT * FROM tb_kas_keluar WHERE id_kas_keluar='$id'")->getRow();
-        $data['nominal'] = $data['gaji']->jumlah / count($data['karyawan']);
-
-        return view('laporan_pembayaran_gaji/cetak', $data);
-    }
 }
